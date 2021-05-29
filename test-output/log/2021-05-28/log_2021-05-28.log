@@ -1,0 +1,403 @@
+[2021-05-28 09:49:38,564] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 09:49:38,610] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null'}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null'}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null'}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null'}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null'}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null'}]}
+[2021-05-28 09:49:38,610] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 09:49:38,611] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 09:49:40,260] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (9eaa403dc42c5b00c506d64a3698d562)
+[2021-05-28 09:50:12,169] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 09:50:13,354] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 09:50:13,511] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 09:50:13,627] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 09:50:15,058] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 09:50:15,761] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 09:50:16,136] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 09:50:16,624] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 09:50:16,895] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 09:50:17,047] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 09:50:17,182] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 09:50:17,309] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 09:50:17,450] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 09:50:17,721] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 09:50:18,420] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 10:00:00,222] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 10:00:00,267] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null'}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null'}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null'}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null'}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null'}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null'}]}
+[2021-05-28 10:00:00,268] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 10:00:00,268] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 10:00:01,927] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (56c2066410325923aa1e2d8f5214caf1)
+[2021-05-28 10:00:04,766] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 10:00:06,717] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 10:00:06,859] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 10:00:06,966] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 10:00:08,292] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:00:09,027] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:00:09,367] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 10:00:09,863] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 10:00:10,299] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 10:00:10,435] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 10:00:10,606] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 10:00:10,737] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 10:00:19,032] ERROR java.lang.Object 8s内没有找到：“选择手动标签样式
+[2021-05-28 10:00:19,726] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 10:00:52,836] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 10:00:52,845] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null'}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null'}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null'}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null'}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null'}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null'}]}
+[2021-05-28 10:00:52,845] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 10:00:52,845] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 10:00:54,077] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (7e49f91fa40defbdf34928c51c34a04a)
+[2021-05-28 10:00:57,558] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 10:01:01,341] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 10:01:01,502] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 10:01:01,615] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 10:01:02,810] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:01:03,528] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:01:03,980] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 10:01:04,436] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 10:01:04,727] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 10:01:04,865] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 10:01:05,539] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 10:01:05,661] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 10:01:05,796] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 10:01:06,042] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 10:01:06,755] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 10:04:17,334] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 10:04:17,387] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null'}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null'}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null'}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null'}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null'}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null'}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null'}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null'}]}
+[2021-05-28 10:04:17,387] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 10:04:17,388] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 10:04:18,961] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (3eb5f48dacd89de0b30cfa4a0ab33c49)
+[2021-05-28 10:04:23,642] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 10:04:27,348] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 10:04:27,502] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 10:04:27,594] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 10:04:28,860] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:04:29,563] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 10:04:30,000] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 10:04:30,455] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 10:04:30,731] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 10:04:30,883] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 10:04:31,013] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 10:04:31,141] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 10:04:31,298] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 10:04:31,556] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 10:04:32,248] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:35:24,100] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 13:35:24,157] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null', handle=null}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null', handle=null}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null', handle=null}]}
+[2021-05-28 13:35:24,158] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:35:24,158] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:35:25,781] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (1e528f0fa7240fa763118c8255c33b77)
+[2021-05-28 13:35:28,199] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:35:29,373] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:35:29,518] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:35:29,630] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:35:30,871] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:35:31,586] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:35:31,935] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 13:35:32,424] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 13:35:32,712] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 13:35:32,841] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 13:35:32,977] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 13:35:33,104] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 13:35:33,242] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 13:35:33,510] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 13:35:34,228] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:40:48,765] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 13:40:48,814] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null', handle=null}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null', handle=null}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null', handle=null}]}
+[2021-05-28 13:40:48,814] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:40:48,814] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:40:50,420] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (d88e3ad7bea64fa9c9d0d4b7461eb861)
+[2021-05-28 13:40:52,204] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:40:53,754] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:40:53,936] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:40:54,075] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:40:55,267] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:40:55,994] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:40:56,680] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 13:40:56,921] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 13:40:57,243] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 13:40:57,387] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 13:40:57,554] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 13:40:57,698] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 13:40:57,871] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 13:40:58,144] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 13:40:58,864] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:41:57,398] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase.xml
+[2021-05-28 13:41:57,449] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='标签管理']', timeout='null', name='null', desc='点击标签管理', operator='null', handle=null}, Test{param=null, type='xpath', value='//span/span[text()='手动标签']', timeout='null', name='null', desc='进入手动标签', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='新建标签']', timeout='null', name='null', desc='新建手动标签页面', operator='null', handle=null}, Test{param=Param{value='自动新建的标签'}, type='xpath', value='//input[@placeholder='输入标签名称']', timeout='null', name='null', desc='输入标签名称', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择事件']', timeout='null', name='null', desc='选择事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='分页3']', timeout='null', name='null', desc='选择分页3事件', operator='null', handle=null}, Test{param=null, type='xpath', value='//input[@placeholder='选择标签样式']', timeout='null', name='null', desc='选择标签样式', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']', timeout='null', name='null', desc='选择手动标签样式', operator='null', handle=null}, Test{param=Param{value='新建的一个标签'}, type='xpath', value='//*[@placeholder='输入描述']', timeout='null', name='null', desc='标签描述', operator='null', handle=null}]}
+[2021-05-28 13:41:57,449] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:41:57,449] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:41:59,014] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (a28c78f935b63a902e498b7ebb600caf)
+[2021-05-28 13:42:01,225] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:42:02,445] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:42:02,630] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:42:02,758] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:42:03,872] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:42:04,604] INFO  java.lang.Object 元素描述：点击标签管理;元素定位方式：xpath;元素定位值：//li/span[text()='标签管理'];操作类型：点击
+[2021-05-28 13:42:05,231] INFO  java.lang.Object 元素描述：进入手动标签;元素定位方式：xpath;元素定位值：//span/span[text()='手动标签'];操作类型：点击
+[2021-05-28 13:42:05,485] INFO  java.lang.Object 元素描述：新建手动标签页面;元素定位方式：xpath;元素定位值：//span[text()='新建标签'];操作类型：点击
+[2021-05-28 13:42:05,821] INFO  java.lang.Object 元素描述：输入标签名称;元素定位方式：xpath;元素定位值：//input[@placeholder='输入标签名称'];操作类型：输入;输入值：自动新建的标签
+[2021-05-28 13:42:05,965] INFO  java.lang.Object 元素描述：选择事件;元素定位方式：xpath;元素定位值：//input[@placeholder='选择事件'];操作类型：点击
+[2021-05-28 13:42:06,115] INFO  java.lang.Object 元素描述：选择分页3事件;元素定位方式：xpath;元素定位值：//li/span[text()='分页3'];操作类型：点击
+[2021-05-28 13:42:06,273] INFO  java.lang.Object 元素描述：选择标签样式;元素定位方式：xpath;元素定位值：//input[@placeholder='选择标签样式'];操作类型：点击
+[2021-05-28 13:42:06,422] INFO  java.lang.Object 元素描述：选择手动标签样式;元素定位方式：xpath;元素定位值：//li[@class='el-select-dropdown__item']/span[text()='手动标签样式'];操作类型：点击
+[2021-05-28 13:42:06,712] INFO  java.lang.Object 元素描述：标签描述;元素定位方式：xpath;元素定位值：//*[@placeholder='输入描述'];操作类型：输入;输入值：新建的一个标签
+[2021-05-28 13:42:08,258] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:48:44,809] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 13:48:44,857] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle=null}]}
+[2021-05-28 13:48:44,857] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:48:44,857] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:48:46,465] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (9de345be421ca865cd9198933cf98a8f)
+[2021-05-28 13:48:48,272] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:48:49,991] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:48:50,169] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:48:50,335] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:48:51,500] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 13:48:59,531] ERROR java.lang.Object 8s内没有找到：“活动
+[2021-05-28 13:49:00,248] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:52:46,717] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 13:52:46,766] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle=null}]}
+[2021-05-28 13:52:46,766] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:52:46,766] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:52:48,435] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (222f5d9d140bdfa43949cfcb769ef51b)
+[2021-05-28 13:52:49,759] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:52:51,192] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:52:51,363] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:52:51,516] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:52:52,592] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 13:52:53,557] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 13:52:54,269] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:53:58,771] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 13:53:58,778] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle=null}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle=null}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle=null}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle=null}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle=null}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle=0}]}
+[2021-05-28 13:53:58,778] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:53:58,778] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:53:59,935] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (b10efe352d3820a24cedb31d71f50ef1)
+[2021-05-28 13:54:02,345] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:54:03,532] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:54:03,703] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:54:03,835] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:54:04,902] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 13:54:06,260] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 13:54:06,388] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 13:54:14,452] ERROR java.lang.Object 8s内没有找到：“进入标签管理
+[2021-05-28 13:54:15,195] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 13:58:12,114] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 13:58:12,163] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 13:58:12,164] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 13:58:12,164] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 13:58:13,750] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (6c013eae3af4d6631d6eb0a3e02fc4b6)
+[2021-05-28 13:58:17,635] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 13:58:18,837] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 13:58:19,002] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 13:58:19,131] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 13:58:19,934] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 13:58:21,939] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 13:58:22,048] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 13:58:30,130] ERROR java.lang.Object 8s内没有找到：“进入标签管理
+[2021-05-28 13:58:30,855] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:00:50,304] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:00:50,354] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 14:00:50,354] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:00:50,354] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:00:52,082] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (9889f4430c0cefa11eeb6827df4fd54c)
+[2021-05-28 14:00:54,519] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:00:55,720] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:00:55,889] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:00:56,026] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:00:56,911] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:00:58,112] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:00:58,240] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:01:06,331] ERROR java.lang.Object 8s内没有找到：“进入标签管理
+[2021-05-28 14:01:07,045] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:03:33,105] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:03:33,165] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 14:03:33,165] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:03:33,165] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:03:34,836] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (a218fe82146128a34c3f4a55049d174b)
+[2021-05-28 14:03:37,218] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:03:38,421] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:03:38,615] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:03:38,752] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:03:39,858] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:03:40,875] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:03:41,008] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:05:07,987] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:05:08,037] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 14:05:08,038] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:05:08,038] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:05:09,681] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (097fb125670b023b50b1bef6e8abdd4c)
+[2021-05-28 14:05:12,530] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:05:13,731] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:05:13,896] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:05:14,032] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:05:15,853] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:05:16,968] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:05:17,082] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:05:17,247] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:05:17,960] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:05:25,242] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:05:25,247] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 14:05:25,247] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:05:25,247] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:05:26,430] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (c06252c7b95eb17c691b1b471b9dbdac)
+[2021-05-28 14:05:28,415] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:05:29,609] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:05:29,821] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:05:29,969] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:05:31,067] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:05:32,190] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:05:32,322] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:05:32,470] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:05:33,270] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:08:49,254] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:08:49,304] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}]}
+[2021-05-28 14:08:49,304] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:08:49,304] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:08:50,888] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (ed35b422083d4d6e34606fdb1d8b4545)
+[2021-05-28 14:09:23,939] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:09:25,124] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:09:25,298] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:09:25,444] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:09:26,640] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:09:27,725] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:09:27,864] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:09:27,903] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:09:28,038] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:09:28,767] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:11:32,515] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:11:32,522] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:11:32,522] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:11:32,522] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:11:33,720] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (70027726e0e46c15aeb89ce512cb1b4f)
+[2021-05-28 14:11:35,105] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:11:36,292] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:11:36,476] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:11:36,622] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:11:37,492] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:11:38,791] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:11:38,917] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:11:38,941] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:11:39,071] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:11:39,092] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:11:39,897] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:12:30,707] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:12:30,759] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:12:30,759] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:12:30,760] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:12:32,381] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (c1f8e6a79a018f7363d9c252bc5f21cc)
+[2021-05-28 14:12:33,679] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:12:34,904] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:12:35,083] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:12:35,221] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:12:36,276] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:12:37,287] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:12:37,412] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:12:37,444] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:12:37,583] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:12:37,612] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:12:38,893] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:13:10,574] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:13:10,626] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='xpath', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:13:10,626] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:13:10,626] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:13:12,252] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (61799814c226e30a38d742187688d126)
+[2021-05-28 14:13:14,267] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:13:15,458] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:13:15,633] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:13:15,788] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:13:16,787] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:13:17,828] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:13:17,957] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:13:17,982] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:13:18,110] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:13:18,143] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:13:18,292] INFO  java.lang.Object 元素描述：进入会员;元素定位方式：xpath;元素定位值：//li/span[text()='会员'];操作类型：点击
+[2021-05-28 14:13:24,027] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:20:17,964] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:20:18,017] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:20:18,018] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:20:18,018] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:20:19,615] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (d716f9394602b8064daed75a3076bccf)
+[2021-05-28 14:20:22,286] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:20:23,496] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:20:23,658] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:20:23,799] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:20:24,715] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:20:26,231] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:20:26,343] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:20:26,367] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:20:26,505] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:20:26,527] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:20:32,414] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:22:28,574] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:22:28,645] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:22:28,645] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:22:28,646] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:22:30,336] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (e2dd0e533b9a90b98888a01988c9f72a)
+[2021-05-28 14:22:33,310] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:22:34,509] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:22:34,700] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:22:34,838] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:22:35,879] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:22:36,992] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:22:37,122] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:22:37,150] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:22:37,310] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:22:37,422] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:29:22,891] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:29:29,256] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:29:29,308] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='xpath', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:29:29,308] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:29:29,309] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:29:30,964] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (173158f26af57d8713f8b6dcefc3fa65)
+[2021-05-28 14:29:33,336] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:29:34,519] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:29:34,681] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:29:34,819] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:29:35,868] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:29:36,980] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:29:37,110] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:29:37,135] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:29:37,248] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:29:37,278] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:29:37,416] INFO  java.lang.Object 元素描述：进入会员;元素定位方式：xpath;元素定位值：//li/span[text()='会员'];操作类型：点击
+[2021-05-28 14:29:43,190] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:31:06,324] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:31:06,375] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value='Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:31:06,375] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:31:06,375] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:31:07,979] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (65a98631f73e8730ebf6b64987c82c8c)
+[2021-05-28 14:31:10,698] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:31:11,898] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:31:12,100] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值：Supaur2021!@#
+[2021-05-28 14:31:12,237] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:31:13,207] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:31:14,405] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:31:14,512] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:31:14,538] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:31:14,667] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:31:14,693] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:31:14,842] INFO  java.lang.Object 元素描述：进入会员;元素定位方式：xpath;元素定位值：//li/span[text()='会员'];操作类型：点击
+[2021-05-28 14:31:20,630] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:46:21,685] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:46:21,739] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value=' !@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:46:21,739] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:46:21,739] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:46:23,329] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (1a3e26e8e6b34579f24e4b55cbeb826e)
+[2021-05-28 14:46:25,241] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:46:26,453] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:46:26,644] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值： !@#
+[2021-05-28 14:46:26,783] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:46:34,851] ERROR java.lang.Object 8s内没有找到：“增长参谋
+[2021-05-28 14:46:35,552] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-05-28 14:47:16,750] INFO  java.lang.Object 测试用例路径已获取：E://study//WebTest//src//main//java//com//supaur//framework//Sprint1//TestCase_Redirect.xml
+[2021-05-28 14:47:16,839] INFO  java.lang.Object 测试用例已获取：TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param=Param{value='15003970273'}, type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='null', handle='null'}, Test{param=Param{value=' Supaur2021!@#'}, type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='null', handle='null'}, Test{param=null, type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='null', handle='null'}, Test{param=null, type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='null', handle='null'}, Test{param=null, type='null', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='null', handle='1'}, Test{param=null, type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='null', handle='2'}]}
+[2021-05-28 14:47:16,839] INFO  java.lang.Object 测试页面url已获取：https://cdp.dmp-sit.supaur.tech/overview/customer
+[2021-05-28 14:47:16,839] INFO  java.lang.Object ------------------开始执行测试---------------
+[2021-05-28 14:47:18,453] INFO  java.lang.Object 浏览器驱动已获取:ChromeDriver: chrome on WINDOWS (8a3d37b68616a58b4cc3f642a40ac7eb)
+[2021-05-28 14:47:20,866] INFO  java.lang.Object 已进入测试页面
+[2021-05-28 14:47:22,064] INFO  java.lang.Object 元素描述：用户名输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='用户名'];操作类型：输入;输入值：15003970273
+[2021-05-28 14:47:22,237] INFO  java.lang.Object 元素描述：密码输入框;元素定位方式：xpath;元素定位值：//input[@placeholder='密码'];操作类型：输入;输入值： Supaur2021!@#
+[2021-05-28 14:47:22,373] INFO  java.lang.Object 元素描述：登录;元素定位方式：xpath;元素定位值：//button[1];操作类型：点击
+[2021-05-28 14:47:23,442] INFO  java.lang.Object 元素描述：增长参谋;元素定位方式：xpath;元素定位值：//li[text()='增长参谋'];操作类型：点击
+[2021-05-28 14:47:24,672] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:47:24,793] INFO  java.lang.Object 元素描述：活动;元素定位方式：xpath;元素定位值：//li/span[text()='活动'];操作类型：点击
+[2021-05-28 14:47:24,819] INFO  java.lang.Object 已切换到第1个页面！
+[2021-05-28 14:47:24,935] INFO  java.lang.Object 元素描述：进入标签管理;元素定位方式：xpath;元素定位值：//span[text()='标签管理'];操作类型：点击
+[2021-05-28 14:47:24,962] INFO  java.lang.Object 已切换到第2个页面！
+[2021-05-28 14:47:25,125] INFO  java.lang.Object 元素描述：进入会员;元素定位方式：xpath;元素定位值：//li/span[text()='会员'];操作类型：点击
+[2021-05-28 14:47:30,909] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------

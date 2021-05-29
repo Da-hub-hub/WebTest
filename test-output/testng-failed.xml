@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="path" value="testcase/TestCase.xml"/>
+  <parameter name="driver" value="ChromeDriver"/>
+  <test name="Base(failed)">
+    <classes>
+      <class name="com.supaur.framework.Sprint1.run.ActionRun">
+        <methods>
+          <include name="setup"/>
+          <include name="getTestCase"/>
+          <include name="getUrl1"/>
+          <include name="tearDown"/>
+          <include name="UiTest"/>
+          <include name="getPath"/>
+        </methods>
+      </class> <!-- com.supaur.framework.Sprint1.run.ActionRun -->
+    </classes>
+  </test> <!-- Base(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -67,6 +67,7 @@ public class Log
         // {dir.mkdirs();}
         String filepathHtml=dir.getAbsolutePath()+"/"+"log_"+date+".html";
         prop.setProperty("log4j.appender.F.file",filepathHtml);
+        prop.setProperty("log4j.appender.syslog.encoding","UTF-8");
         prop.setProperty("log4j.appender.F.layout","org.apache.log4j.HTMLLayout");
         //prop.setProperty("log4j.appender.F.layout.ConversionPattern", "[%d{YYYY-MM-dd HH:mm:ss,SSS}] %-5p %c %m%n");
 
