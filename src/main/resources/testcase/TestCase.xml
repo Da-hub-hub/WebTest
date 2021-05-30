@@ -14,10 +14,10 @@
    浏览器操作：navigate().to(url)访问指定的url地址y、refresh刷新当前页面、back浏览器回退、forward前进操作
    页面操作：get(url)访问指定url页面、getCurentUrl获取当前页面的url地址、getTitle获取当前页面标题、getPageSource获取当前页面源码、quit关闭驱动及所相关窗口
     -->
-    <test type="xpath" value="//li" desc="测试" operator="click" param="入参">
+  <!--  <test type="xpath" value="//li" desc="测试" operator="click" param="入参">
         <navigate type="to" param="https://www.baidu.com"></navigate>
         <assert expectType="url" expectValue="预期结果" actualValue="实际结果"></assert>
-    </test>
+    </test>-->
 
 
 <!--    &lt;!&ndash;输入操作&ndash;&gt;
@@ -29,8 +29,9 @@
     &lt;!&ndash;操作浏览器&ndash;&gt;
     <test type="back"  value="" desc="后退" operator="navigate"/>
     &lt;!&ndash;断言&ndash;&gt;
-    <test value="//li" desc="测试" operator="assert" >
-        <assert expectType="文本值/属性" expectValue="预期结果" actualValue="实际结果"></assert>
+    <test desc="断言" operator="assert" >
+        <assert Type="系统" value="" expectValue="预期结果"></assert>
+        <assert Type="元素的值/属性" type="xpath" value="//li" expectValue="预期结果"></assert>
     </test>-->
 
 
