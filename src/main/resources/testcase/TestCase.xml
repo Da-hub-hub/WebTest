@@ -13,26 +13,64 @@
    元素操作：click、sendkeys（需要参数）、clear    获取元素信息（getInformation）
    浏览器操作：navigate().to(url)访问指定的url地址y、refresh刷新当前页面、back浏览器回退、forward前进操作
    页面操作：get(url)访问指定url页面、getCurentUrl获取当前页面的url地址、getTitle获取当前页面标题、getPageSource获取当前页面源码、quit关闭驱动及所相关窗口
+   特殊元素操作：iframe
     -->
   <!--  <test type="xpath" value="//li" desc="测试" operator="click" param="入参">
         <navigate type="to" param="https://www.baidu.com"></navigate>
         <assert expectType="url" expectValue="预期结果" actualValue="实际结果"></assert>
     </test>-->
 
+<!--    //清除浏览器缓存,是放在beforeTest中还是自己在用例中进行操作
+    driver.get("chrome://settings/clearBrowserData");
+    Thread.sleep(1000);
+    driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);-->
 
-<!--    &lt;!&ndash;输入操作&ndash;&gt;
-    <test type="xpath" value="//li" desc="测试" operator="sendKeys" param="入参" handle="进入第几个页面"/>
-    &lt;!&ndash;点击操作&ndash;&gt;
-    <test type="xpath" value="//li" desc="测试" operator="click"/>
-    &lt;!&ndash;清空输入框&ndash;&gt;
-    <test type="xpath" value="//li" desc="测试" operator="clear"/>
-    &lt;!&ndash;操作浏览器&ndash;&gt;
+
+
+    <!--输入操作-->
+    <test type="xpath" value="//li" desc="输入" operator="sendKeys" param="入参" handle="进入第几个页面"/>
+    <!--点击操作-->
+    <test type="xpath" value="//li" desc="点击" operator="click"/>
+    <!--清空输入框-->
+    <test type="xpath" value="//li" desc="清除" operator="clear"/>
+
+
+    <!--浏览器后退-->
     <test type="back"  value="" desc="后退" operator="navigate"/>
-    &lt;!&ndash;断言&ndash;&gt;
-    <test desc="断言" operator="assert" >
-        <assert Type="系统" value="" expectValue="预期结果"></assert>
-        <assert Type="元素的值/属性" type="xpath" value="//li" expectValue="预期结果"></assert>
-    </test>-->
+    <!--浏览器前进-->
+    <test type="forward"  value="" desc="前进" operator="navigate"/>
+    <!--浏览器后退-->
+    <test type="refresh"  value="" desc="刷新" operator="navigate"/>
+    <!--浏览器跳转url-->
+    <test type="url"  value="跳转的地址" desc="跳转" operator="navigate"/>
+
+
+    <!--特殊元素操作：切换iframe-->
+    <test type="xpath" value="//iframe[@id='']" desc="切换iframe" operator="iframe"/>
+    <test type="" value="" desc="回到原来最初的iframe" operator="defaultiframe"/>
+    <!--特殊元素操作：alert-->
+    <test type="" value="accept" desc="点击确认按钮" operator="alert"/>
+    <test type="" value="dismiss" desc="弹窗消失" operator="alert"/>
+    <!--特殊元素操作：confirm-->
+    <test type="" value="accept" desc="点击确认按钮" operator="confirm"/>
+    <test type="" value="dismiss" desc="点击取消按钮" operator="confirm"/>
+
+
+
+    <!--断言：页面属性-->
+    <test type="" value="" desc="断言" operator="Systemassert" >
+        <assert type="current_url"  desc="断言当前页面url" expectValue="预期结果"></assert>
+        <assert type="title"  desc="断言当前页面标题" expectValue="预期结果"></assert>
+    </test>
+    <!--断言：元素属性-->
+    <test type="xpath" value="//li" desc="断言" operator="Elementassert" >
+        <assert type="" desc="获取元素的属性值" expectValue="预期结果"></assert>
+        <assert type="" desc="判断元素是否被选中" expectValue="预期结果"></assert>
+        <assert type="" desc="判断元素是否显示" expectValue="预期结果"></assert>
+        <assert type="" desc="判断元素是否被使用" expectValue="预期结果"></assert>
+        <assert type="" desc="判断元素的文本值" expectValue="预期结果"></assert>
+        <assert type="" desc="获取元素的属性值" expectValue="预期结果"></assert>
+    </test>
 
 
 

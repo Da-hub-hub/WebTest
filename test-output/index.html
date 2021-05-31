@@ -143,6 +143,9 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;parameter name=&quot;path&quot; value=&quot;testcase/TestCase_Redirect.xml&quot;/&gt;
   &lt;parameter name=&quot;driver&quot; value=&quot;ChromeDriver&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.supaur.framework.utils.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Base&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.supaur.framework.Sprint1.run.ActionRun&quot;/&gt;
@@ -189,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'UiTest')
 data.setCell(0, 2, 'com.supaur.framework.Sprint1.run.ActionRun')
-data.setCell(0, 3, 6525);
+data.setCell(0, 3, 10759);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,23 +230,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">getTestCase</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">4 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">getUrl1</span>
-                <span class="method-start">117 ms</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">setup(ChromeDriver)</span>
-                <span class="method-start">117 ms</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">UiTest</span>
-                <span class="method-start">4183 ms</span>
+                <span class="method-start">6410 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10709 ms</span>
+                <span class="method-start">17170 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
