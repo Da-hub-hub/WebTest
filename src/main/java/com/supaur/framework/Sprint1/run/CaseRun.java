@@ -1,3 +1,4 @@
+/*
 package com.supaur.framework.Sprint1.run;
 
 import com.supaur.framework.Sprint1.entity.Test;
@@ -127,8 +128,9 @@ public class CaseRun {
                     webElement.click();
                     log.info("元素描述："+test.getDesc()+";元素定位方式："+test.getType()+";元素定位值："+test.getValue()+";操作类型：点击");
                 }
-            /*Thread.sleep(Long.parseLong(test.getTimeout()));
-            log.info("下一元素加载所需时间："+Integer.parseInt(test.getTimeout())/1000+"秒");*/
+Thread.sleep(Long.parseLong(test.getTimeout()));
+            log.info("下一元素加载所需时间："+Integer.parseInt(test.getTimeout())/1000+"秒");
+
 
 
 
@@ -137,3 +139,4 @@ public class CaseRun {
         }
     }
 }
+*/

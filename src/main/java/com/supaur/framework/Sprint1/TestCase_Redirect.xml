@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase url="https://cdp.dmp-sit.supaur.tech/overview/customer">
+    <!--
+    现阶段：参数类型均为String
+    type:元素定位类型
+    value:定位元素所需要的参数
+    handle:切换至第几个页面
+    desc：描述（用来打印日志）
+    name：元素名称，暂未用到
+    timeout:超时时间，暂未用到
+    -->
+    <test type="xpath"  value="//input[@placeholder='用户名']"  desc="用户名输入框" name="输入用户名">
+        <param value="15003970273"/>
+    </test>
+    <test type="xpath"  value="//input[@placeholder='密码']"  desc="密码输入框" name="输入密码">
+        <param value=" Supaur2021!@#"/>
+    </test>
+
+    <test type="xpath"  value="//button[1]"  desc="登录" name="登录">
+    </test>
+
+    <test type="xpath" value="//li[text()='增长参谋']" desc="增长参谋" name="增长参谋"/>
+
+    <test type="xpath" value="//li/span[text()='活动']" desc="活动" name="活动"></test>
+
+    <test  value="//li/span[text()='活动']" desc="活动" name="活动"></test>
+
+    <test  value="//span[text()='标签管理']"  desc="进入标签管理" handle="1"/>
+
+    <test  value="//li/span[text()='会员']" desc="进入会员" handle="2"/>
+
+
+
+
+
+
+    <!--TODO-->
+    <!--<assert>
+        <equals expectedValue=""></equals>
+    </assert>-->
+
+</testcase>

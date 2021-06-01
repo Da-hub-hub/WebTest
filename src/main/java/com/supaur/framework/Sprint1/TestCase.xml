@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase url="https://cdp.dmp-sit.supaur.tech/overview/customer">
+    <!--
+    type:元素定位类型
+    value:定位元素所需要的参数
+    timeout:超时时间，自定
+    desc：描述
+    name：元素名称，自定
+    -->
+    <test type="xpath"  value="//input[@placeholder='用户名']"  desc="用户名输入框" name="输入用户名">
+        <param value="15003970273"/>
+    </test>
+    <test type="xpath"  value="//input[@placeholder='密码']"  desc="密码输入框" name="输入密码">
+        <param value="Supaur2021!@#"/>
+    </test>
+
+    <test type="xpath"  value="//button[1]"  desc="登录" name="登录">
+    </test>
+
+    <test type="xpath"  value="//span[text()='标签管理']"  desc="进入标签管理" >
+    </test>
+
+    <test type="xpath"  value="//li/span[text()='标签管理']"  desc="点击标签管理">
+    </test>
+
+    <test type="xpath"  value="//span/span[text()='手动标签']"  desc="进入手动标签">
+    </test>
+
+    <test type="xpath"  value="//span[text()='新建标签']"  desc="新建手动标签页面">
+    </test>
+
+    <test type="xpath"  value="//input[@placeholder='输入标签名称']"  desc="输入标签名称">
+        <param value="自动新建的标签"></param>
+    </test>
+
+    <test type="xpath"  value="//input[@placeholder='选择事件']"  desc="选择事件">
+    </test>
+
+    <test type="xpath"  value="//li/span[text()='分页3']"  desc="选择分页3事件">
+    </test>
+
+    <test type="xpath"  value="//input[@placeholder='选择标签样式']"  desc="选择标签样式">
+    </test>
+
+    <test type="xpath"  value="//li[@class='el-select-dropdown__item']/span[text()='手动标签样式']"  desc="选择手动标签样式">
+    </test>
+
+    <test type="xpath"  value="//*[@placeholder='输入描述']"  desc="标签描述">
+        <param value="新建的一个标签"></param>
+    </test>
+
+
+
+
+
+
+    <!--TODO-->
+<!--<assert>
+        <equals expectedValue=""></equals>
+    </assert>-->
+
+</testcase>

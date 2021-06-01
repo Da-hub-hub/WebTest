@@ -9,29 +9,33 @@
     name：元素名称，暂未用到
     timeout:超时时间，暂未用到
     -->
-    <test type="xpath"  value="//input[@placeholder='用户名']"  desc="用户名输入框" name="输入用户名">
-        <param value="15003970273"/>
+    <test type="xpath"  value="//input[@placeholder='用户名']"  desc="用户名输入框" name="输入用户名" operator="sendKeys" param="15003970273"/>
+    <test type="xpath"  value="//input[@placeholder='密码']"  desc="密码输入框" name="输入密码" operator="sendKeys" param="Supaur2021!@#"/>
+    <test type="xpath"  value="//button[1]"  desc="登录" name="登录" operator="click"/>
+    <test type="xpath" value="//li[text()='增长参谋']" desc="增长参谋" name="增长参谋" operator="click"/>
+    <test type="xpath" value="//li/span[text()='活动']" desc="活动" name="活动" operator="click"/>
+    <test  value="//li/span[text()='活动']" desc="活动" name="活动" operator="click"></test>
+    <test  value="//span[text()='标签管理']"  desc="进入标签管理" handle="1" operator="click"/>
+    <test  value="//li/span[text()='会员']" desc="进入会员" handle="2" operator="click"/>
+    <test operator="systemAssert" desc="断言">
+        <asserts type="currentUrl" expectValue="https://indicator.dmp-sit.supaur.tech/memberBi/index"/>
+        <asserts type="currentUrl" expectValue="https://indicator.dmp-sit.supaur.tech/memberBi/ind"/>
+        <asserts type="title" expectValue="营销增长平台"/>
     </test>
-    <test type="xpath"  value="//input[@placeholder='密码']"  desc="密码输入框" name="输入密码">
-        <param value=" Supaur2021!@#"/>
+    <test operator="navigate" type="back" desc="后退"/>
+    <test operator="navigate" type="forward" desc="前进"/>
+    <test operator="navigate" type="toUrl" value="https://www.baidu.com"/>
+    <test operator="sendKeys" value="kw" type="id" param="你好啊"/>
+    <test operator="navigate" type="back" desc="后退"/>
+    <test operator="navigate" type="forward" desc="前进"/>
+    <test operator="elementAssert" type="xpath" value="//span[@name='tj_settingicon']" desc="元素断言">
+        <asserts type="text" expectValue="设hj 置"/>
     </test>
 
-    <test type="xpath"  value="//button[1]"  desc="登录" name="登录">
+    <test operator="elementAssert" type="id" value="su" desc="元素断言">
+        <asserts type="value" expectValue="百度一下"/>
+        <asserts type="isDisplay" expectValue="true"/>
     </test>
-
-    <test type="xpath" value="//li[text()='增长参谋']" desc="增长参谋" name="增长参谋"/>
-
-    <test type="xpath" value="//li/span[text()='活动']" desc="活动" name="活动"></test>
-
-    <test  value="//li/span[text()='活动']" desc="活动" name="活动"></test>
-
-    <test  value="//span[text()='标签管理']"  desc="进入标签管理" handle="1"/>
-
-    <test  value="//li/span[text()='会员']" desc="进入会员" handle="2"/>
-
-
-
-
 
 
     <!--TODO-->

@@ -3,8 +3,11 @@ package com.supaur.framework.Sprint1.run;
 import com.supaur.framework.Sprint1.ElementLocator;
 import com.supaur.framework.Sprint1.entity.TestCase;
 import com.supaur.framework.seleniumTool.DriverGet;
+import com.supaur.framework.seleniumTool.ElementOperation;
+import com.supaur.framework.testCaseRun.TestCaseRun;
 import com.supaur.framework.utils.JaxbUtil;
 import com.supaur.framework.utils.Log;
+import com.supaur.framework.utils.MyException;
 import org.openqa.selenium.WebDriver;
 import org.springframework.core.io.ClassPathResource;
 import org.testng.annotations.*;
@@ -20,7 +23,7 @@ public class ActionRun {
     public String path;
     public String url;
     public TestCase testCase;
-    public static WebDriver driver;
+    public  WebDriver driver;
     //方法描述
     public static String description;
     public Log log = new Log(this.getClass().getSuperclass());
@@ -47,9 +50,6 @@ public class ActionRun {
         this.testCase = (TestCase) object;
         log.info("测试用例已获取："+this.testCase);
         return testCase;*/
-        /*
-        * 用例放在类路径下，获取输入流，进行执行
-        * */
         ClassPathResource classPathResource = new ClassPathResource(path);
         InputStream inputStream1 = classPathResource.getInputStream();
         Object object = JaxbUtil.xmlToBean(inputStream1, TestCase.class);
@@ -100,9 +100,10 @@ public class ActionRun {
 
 
     @Test
-    public void UiTest() throws InterruptedException {
-        new CaseRun(driver,testCase).execute();
-        Thread.sleep(3000);
+    public void UiTest() throws InterruptedException, MyException {
+        //new CaseRun(driver,testCase).execute();
+        new TestCaseRun(driver,testCase).execute();
+        //Thread.sleep(3000);
     }
 
 
@@ -114,9 +115,9 @@ public class ActionRun {
         log.info("-------------结束测试，并关闭退出浏览器-------------");
     }
 
-    /**
-     * 根据配置文件的driver名称，设置对应的驱动
-     */
+
+
+
     private WebDriver setDriver(String browsername)
     {
 

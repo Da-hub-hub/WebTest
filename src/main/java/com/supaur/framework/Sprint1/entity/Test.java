@@ -4,13 +4,16 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
+import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "test", propOrder = {
-        "param"
+        "asserts"
 })
 public class Test{
-    protected Param param;
+    protected List<Assert> asserts;
+    @XmlAttribute(name = "param", required = true)
+    protected String  param;
     @XmlAttribute(name = "type", required = true)
     protected String type;
     @XmlAttribute(name = "value", required = true)
@@ -27,18 +30,11 @@ public class Test{
     protected  String  handle;
 
 
-    public String getHandle() {
-        return handle;
-    }
-
-    public void setHandle(String handle) {
-        this.handle = handle;
-    }
 
     @Override
     public String toString() {
         return "Test{" +
-                "param=" + param +
+                "param='" + param + '\'' +
                 ", type='" + type + '\'' +
                 ", value='" + value + '\'' +
                 ", timeout='" + timeout + '\'' +
@@ -46,13 +42,34 @@ public class Test{
                 ", desc='" + desc + '\'' +
                 ", operator='" + operator + '\'' +
                 ", handle='" + handle + '\'' +
+                ", asserts=" + asserts +
                 '}';
     }
 
+    public String getHandle() {
+        return handle;
+    }
 
-    public Param getParam() {
+    public List<Assert> getAsserts() {
+        return asserts;
+    }
+
+    public void setAsserts(List<Assert> asserts) {
+        this.asserts = asserts;
+    }
+
+    public void setHandle(String handle) {
+        this.handle = handle;
+    }
+
+    public String getParam() {
         return param;
     }
+
+    public void setParam(String param) {
+        this.param = param;
+    }
+
 
     public String getOperator() {
         return operator;
@@ -70,9 +87,6 @@ public class Test{
         this.desc = desc;
     }
 
-    public void setParam(Param param) {
-        this.param = param;
-    }
 
 
     //为type设置默认值，如果xml中未解析出对应Bytype时，自动赋值为“xpath”

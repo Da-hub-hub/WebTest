@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 * 根定位信息获取元素
 * */
 public class ElementGet {
-    private WebDriver driver;
+    public WebDriver driver;
     private WebElement element;
     public Log log = new Log(this.getClass().getSuperclass());
     public ElementGet(){
@@ -23,82 +23,105 @@ public class ElementGet {
         waitElementIsEnable=new WaitElementIsEnable(driver);
         if (waitElementIsEnable.implicitWait(By.id(id))){
                  element = driver.findElement(By.id(id));
-                 log.info("元素已找到");
+                 //log.info("元素已找到");
                  return element;
              }else {
-                    log.error("8s内没有定位到元素");
+                    //log.error("8s内没有定位到元素");
                     throw new MyException("8s内没有定位到元素");
              }
     }
 
 
-    //TODO
-
-
     //根据name定位元素
-    public WebElement getElementByName(String name){
-        try{
+    public WebElement getElementByName(String name) throws MyException{
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.name(name))){
             element = driver.findElement(By.name(name));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+name+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
         }
-        return element;
     }
     //根据name定位元素
-    public WebElement getElementByXpath(String xpath){
-        try{
+    public WebElement getElementByXpath(String xpath) throws MyException {
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.xpath(xpath))){
             element = driver.findElement(By.xpath(xpath));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+xpath+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
         }
-        return element;
     }
 
     //根据className定位元素
-    public WebElement getElementByClassName(String className){
-        try{
+    public WebElement getElementByClassName(String className) throws MyException {
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.className(className))){
             element = driver.findElement(By.className(className));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+className+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
         }
-        return element;
     }
 
 
     //根据tagName定位元素
-    public WebElement getElementByTagName(String tagName){
-        try{
+    public WebElement getElementByTagName(String tagName) throws MyException {
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.tagName(tagName))){
             element = driver.findElement(By.tagName(tagName));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+tagName+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
         }
-        return element;
     }
 
     //根据Linktext定位元素
-    public WebElement getElementByLinktext(String linktext){
-        try{
+    public WebElement getElementByLinktext(String linktext) throws MyException {
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.linkText(linktext))){
             element = driver.findElement(By.linkText(linktext));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+linktext+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
         }
-        return element;
     }
 
     //根据Cssselector定位元素
-    public WebElement getElementByCssselector(String Cssselector){
-        try{
+    public WebElement getElementByCssselector(String Cssselector) throws MyException {
+        waitElementIsEnable=new WaitElementIsEnable(driver);
+        if (waitElementIsEnable.implicitWait(By.cssSelector(Cssselector))){
             element = driver.findElement(By.cssSelector(Cssselector));
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            log.error("根据："+Cssselector+"未定位到元素");
+            //log.info("元素已找到");
+            return element;
+        }else {
+            //log.error("8s内没有定位到元素");
+            throw new MyException("8s内没有定位到元素");
+        }
+    }
+
+    public WebElement getElement(String type,String value) throws MyException {
+        switch (type){
+            case "id":getElementById(value);break;
+            case "name":getElementByName(value);break;
+            case "xpath":getElementByXpath(value);break;
+            case "className":getElementByClassName(value);break;
+            case "linkText":getElementByLinktext(value);break;
+            case "cssSelector":getElementByCssselector(value);break;
+            case "tagName":getElementByTagName(value);break;
         }
         return element;
+
     }
 
 
