@@ -2,8 +2,9 @@ package com.supaur.framework.seleniumTool;
 
 import com.supaur.framework.Sprint1.entity.Test;
 import com.supaur.framework.utils.MyException;
-import com.supaur.framework.utils.RedirectJudge;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+
 /*
 * 操作元素
 * */
@@ -32,10 +33,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     getElement(test.getType(), test.getValue()).click();
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     getElement(test.getType(), test.getValue()).click();
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
 
@@ -44,10 +47,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(this.driver);
                     getElement(test.getType(), test.getValue()).sendKeys(test.getParam());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     getElement(test.getType(), test.getValue()).sendKeys(test.getParam());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "clear":
@@ -55,10 +60,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     getElement(test.getType(),test.getValue()).clear();
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     getElement(test.getType(),test.getValue()).clear();
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "navigate":
@@ -66,10 +73,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     browserOperation.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     browserOperation.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "alert":
@@ -77,10 +86,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     specialElementOperation.alertOperation(test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     specialElementOperation.alertOperation(test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "confirm":
@@ -88,10 +99,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     specialElementOperation.confirmOperation(test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     specialElementOperation.confirmOperation(test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "iframe":
@@ -99,10 +112,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     specialElementOperation.switchToIframe(test.getType(),test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     specialElementOperation.switchToIframe(test.getType(),test.getValue());
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
                 //系统断言
@@ -111,10 +126,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     assertPage.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     assertPage.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
             case "elementAssert":
@@ -122,10 +139,12 @@ public class ElementOperation extends ElementGet {
                     RedirectJudge.judgeRedirect(driver);
                     assertElement.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }else {
                     RedirectJudge.judgeRedirect(driver,test);
                     assertElement.execute(test);
                     log.info("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
+                    Reporter.log("desc："+test.getDesc()+";name:"+test.getName()+";定位信息："+test.getValue());
                 }
                 break;
         }
