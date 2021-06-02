@@ -2,12 +2,15 @@ package com.supaur.framework.Sprint1.run;
 
 import com.supaur.framework.Sprint1.ElementLocator;
 import com.supaur.framework.Sprint1.entity.TestCase;
+import com.supaur.framework.Sprint1.entity.UiTestCase;
+import com.supaur.framework.Sprint1.test.NewTest;
 import com.supaur.framework.seleniumTool.DriverGet;
 import com.supaur.framework.seleniumTool.ElementOperation;
 import com.supaur.framework.testCaseRun.TestCaseRun;
 import com.supaur.framework.utils.JaxbUtil;
 import com.supaur.framework.utils.Log;
 import com.supaur.framework.utils.MyException;
+import com.supaur.framework.utils.UiTestU;
 import org.openqa.selenium.WebDriver;
 import org.springframework.core.io.ClassPathResource;
 import org.testng.annotations.*;
@@ -42,21 +45,33 @@ public class ActionRun {
     }
 
 
-    @BeforeTest
+/*    @BeforeTest
     //解析xml文件获取testcase对象
     public TestCase getTestCase() throws JAXBException, IOException {
         //用例指明绝对路径，执行
-        /*Object object=JaxbUtil.xmlToBean(path,TestCase.class);
+        *//*Object object=JaxbUtil.xmlToBean(path,TestCase.class);
         this.testCase = (TestCase) object;
         log.info("测试用例已获取："+this.testCase);
-        return testCase;*/
+        return testCase;*//*
         ClassPathResource classPathResource = new ClassPathResource(path);
         InputStream inputStream1 = classPathResource.getInputStream();
         Object object = JaxbUtil.xmlToBean(inputStream1, TestCase.class);
         this.testCase = (TestCase) object;
         log.info("测试用例已获取："+this.testCase);
         return testCase;
-    }
+    }*/
+
+        @BeforeTest
+    //解析xml文件获取testcase对象
+    public TestCase getTestCase() throws Exception {
+        /*UiTestCase uiTestCase = UiTestU.convertXmlToSuite(path);
+        this.testCase = uiTestCase.getTestCase();
+        log.info("测试用例已获取："+this.testCase);
+        return testCase;*/
+            UiTestCase test = NewTest.test(path);
+            this.testCase=test.getTestCase();
+            return test.getTestCase();
+        }
 
     @BeforeTest
     public void getUrl1() {

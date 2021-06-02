@@ -4,7 +4,7 @@ package com.supaur.framework.Sprint1.run;
 import com.supaur.framework.Sprint1.entity.Test;
 import com.supaur.framework.Sprint1.entity.TestCase;
 import com.supaur.framework.utils.Log;
-import com.supaur.framework.utils.RedirectJudge;
+import com.supaur.framework.seleniumTool.RedirectJudge;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

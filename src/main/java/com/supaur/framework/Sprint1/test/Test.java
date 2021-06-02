@@ -25,7 +25,7 @@ public class Test {
 
         //parameters.put("path", "E:\\WebTest\\src\\main\\java\\com\\supaur\\framework\\Sprint1\\TestCase.xml");
         //类路径下
-        parameters.put("path","testcase/TestCase_Redirect.xml");
+        parameters.put("path","testcase/test.xml");
 
         parameters.put("driver","ChromeDriver");
         xmlSuite.setParameters(parameters);

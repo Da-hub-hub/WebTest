@@ -1,4 +1,4 @@
-package com.supaur.framework.utils;
+package com.supaur.framework.seleniumTool;
 
 import com.supaur.framework.Sprint1.entity.Test;
 import org.openqa.selenium.WebDriver;

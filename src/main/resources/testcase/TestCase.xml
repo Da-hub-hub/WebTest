@@ -39,7 +39,7 @@
     <test type="back"  value="" desc="后退" operator="navigate"/>
     <!--浏览器前进-->
     <test type="forward"  value="" desc="前进" operator="navigate"/>
-    <!--浏览器后退-->
+    <!--浏览刷新-->
     <test type="refresh"  value="" desc="刷新" operator="navigate"/>
     <!--浏览器跳转url-->
     <test type="url"  value="跳转的地址" desc="跳转" operator="navigate"/>

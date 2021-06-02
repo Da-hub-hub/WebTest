@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']]]>
+    </line>
+    <line>
+      <![CDATA[desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']]]>
+    </line>
+    <line>
+      <![CDATA[desc：登录;name:登录;定位信息：//button[1]]]>
+    </line>
+    <line>
+      <![CDATA[desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']]]>
+    </line>
+    <line>
+      <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
+    </line>
+    <line>
+      <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
+    </line>
+    <line>
+      <![CDATA[desc：进入标签管理;name:;定位信息：//span[text()='标签管理']]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="17915" started-at="2021-05-31T02:05:58Z" finished-at="2021-05-31T02:06:16Z">
+  <suite name="Suite" duration-ms="10450" started-at="2021-06-02T13:01:20Z" finished-at="2021-06-02T13:01:31Z">
     <groups>
     </groups>
-    <test name="Base" duration-ms="17915" started-at="2021-05-31T02:05:58Z" finished-at="2021-05-31T02:06:16Z">
+    <test name="Base" duration-ms="10450" started-at="2021-06-02T13:01:20Z" finished-at="2021-06-02T13:01:31Z">
       <class name="com.supaur.framework.Sprint1.run.ActionRun">
-        <test-method status="PASS" signature="getPath(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="getPath" is-config="true" duration-ms="4" started-at="2021-05-31T10:05:58Z" finished-at="2021-05-31T10:05:58Z">
+        <test-method status="PASS" signature="getPath(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getPath" is-config="true" duration-ms="12" started-at="2021-06-02T21:01:20Z" finished-at="2021-06-02T21:01:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testcase/TestCase_Redirect.xml]]>
+                <![CDATA[testcase/test.xml]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPath -->
-        <test-method status="PASS" signature="getTestCase()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="getTestCase" is-config="true" duration-ms="45" started-at="2021-05-31T10:05:58Z" finished-at="2021-05-31T10:05:58Z">
+        <test-method status="PASS" signature="getTestCase()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getTestCase" is-config="true" duration-ms="234" started-at="2021-06-02T21:01:20Z" finished-at="2021-06-02T21:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCase -->
-        <test-method status="PASS" signature="getUrl1()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="getUrl1" is-config="true" duration-ms="1" started-at="2021-05-31T10:05:58Z" finished-at="2021-05-31T10:05:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUrl1 -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="setup" is-config="true" duration-ms="6356" started-at="2021-05-31T10:05:58Z" finished-at="2021-05-31T10:06:05Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="setup" is-config="true" duration-ms="5802" started-at="2021-06-02T21:01:21Z" finished-at="2021-06-02T21:01:26Z">
           <params>
             <param index="0">
               <value>
@@ -37,11 +54,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="UiTest()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="UiTest" duration-ms="10759" started-at="2021-05-31T10:06:05Z" finished-at="2021-05-31T10:06:15Z">
+        <test-method status="PASS" signature="getUrl1()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getUrl1" is-config="true" duration-ms="0" started-at="2021-06-02T21:01:21Z" finished-at="2021-06-02T21:01:21Z">
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- getUrl1 -->
+        <test-method status="PASS" signature="UiTest()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="UiTest" duration-ms="3647" started-at="2021-06-02T21:01:26Z" finished-at="2021-06-02T21:01:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']]]>
+            </line>
+            <line>
+              <![CDATA[desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']]]>
+            </line>
+            <line>
+              <![CDATA[desc：登录;name:登录;定位信息：//button[1]]]>
+            </line>
+            <line>
+              <![CDATA[desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']]]>
+            </line>
+            <line>
+              <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
+            </line>
+            <line>
+              <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
+            </line>
+            <line>
+              <![CDATA[desc：进入标签管理;name:;定位信息：//span[text()='标签管理']]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- UiTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@17dc5adb]" name="tearDown" is-config="true" duration-ms="744" started-at="2021-05-31T10:06:15Z" finished-at="2021-05-31T10:06:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="tearDown" is-config="true" duration-ms="744" started-at="2021-06-02T21:01:30Z" finished-at="2021-06-02T21:01:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="path" value="testcase/TestCase_Redirect.xml"/>
+  <parameter name="path" value="testcase/test.xml"/>
   <parameter name="driver" value="ChromeDriver"/>
   <listeners>
     <listener class-name="com.supaur.framework.utils.ExtentTestNGIReporterListener"/>
@@ -10,7 +10,6 @@
     <classes>
       <class name="com.supaur.framework.Sprint1.run.ActionRun">
         <methods>
-          <include name="setup"/>
           <include name="getTestCase"/>
           <include name="getUrl1"/>
           <include name="UiTest"/>

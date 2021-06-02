@@ -6,7 +6,7 @@ import java.util.List;
 @XmlType(name = "", propOrder = {
         "test"
 })
-@XmlRootElement(name = "testcase")
+//@XmlRootElement(name = "testcase")
 public class TestCase {
     @XmlAttribute(name = "url", required = true)
     protected String url;

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.supaur.com/testcase"
+        xmlns:tns="http://www.supaur.com/testcase"
+        elementFormDefault="qualified">
+    <element name="Uitestcase">
+        <complexType>
+            <sequence>
+                <element name="testcase" type="tns:testcase" minOccurs="0"
+                         maxOccurs="1">
+                    <annotation>
+                        <documentation>
+                            testcase根元素！
+                        </documentation>
+                    </annotation>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!--testcase-->
+    <complexType name="testcase">
+        <sequence>
+            <element name="test" type="tns:test" minOccurs="0"
+                     maxOccurs="unbounded">
+                <annotation>
+                    <documentation> testcase编写规则
+                    </documentation>
+                </annotation>
+            </element>
+        </sequence>
+        <attribute name="url" type="string" use="required"/>
+    </complexType>
+
+    <!--test-->
+    <complexType name="test">
+        <sequence>
+            <element name="assert" type="tns:assert" minOccurs="0"
+                     maxOccurs="unbounded">
+                <annotation>
+                    <documentation> testcase编写规则
+                    </documentation>
+                </annotation>
+            </element>
+        </sequence>
+        <attribute name="operator" type="tns:operator" use="required" />
+        <attribute name="param" type="string"  />
+        <attribute name="type" type="tns:type" use="required" />
+        <attribute name="value" type="string" use="required" />
+        <attribute name="desc" type="string" use="required" />
+        <attribute name="name" type="string" use="required" />
+        <attribute name="handle" type="string"  />
+    </complexType>
+
+    <!--test中operator的枚举值-->
+    <simpleType name="operator">
+        <restriction base="string">
+            <enumeration value="click" />
+            <enumeration value="sendKeys" />
+            <enumeration value="clear" />
+            <enumeration value="navigate" />
+            <enumeration value="alert" />
+            <enumeration value="confirm" />
+            <enumeration value="iframe" />
+            <enumeration value="systemAssert" />
+            <enumeration value="elementAssert" />
+        </restriction>
+    </simpleType>
+
+    <!--test中type的枚举值-->
+    <simpleType name="type">
+        <restriction base="string">
+            <enumeration value="id" />
+            <enumeration value="name" />
+            <enumeration value="xpath" />
+            <enumeration value="className" />
+            <enumeration value="linkText" />
+            <enumeration value="cssSelector" />
+            <enumeration value="tagName" />
+        </restriction>
+    </simpleType>
+
+
+
+
+
+
+
+
+    <!--assert-->
+    <complexType name="assert">
+        <attribute name="type" type="tns:type2" use="required" />
+        <attribute name="expectValue" type="string" use="required" />
+    </complexType>
+    <!--断言中type的枚举值-->
+    <simpleType name="type2">
+        <restriction base="string">
+            <enumeration value="text" />
+            <enumeration value="value" />
+            <enumeration value="isDisplay" />
+        </restriction>
+    </simpleType>
+    <!--assert-->
+
+
+
+
+
+
+</schema>

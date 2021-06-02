@@ -5,6 +5,8 @@ import com.supaur.framework.utils.MyException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
+
 /*
 * 根定位信息获取元素
 * */
@@ -54,6 +56,7 @@ public class ElementGet {
         }else {
             //log.error("8s内没有定位到元素");
             throw new MyException("8s内没有定位到元素");
+
         }
     }
 
