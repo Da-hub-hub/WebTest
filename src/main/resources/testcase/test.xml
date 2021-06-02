@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Uitestcase xmlns="http://www.supaur.com/testcase">
-    <testcase url="https://cdp.dmp-sit.supaur.tech/overview/customer"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://www.supaur.com/testcase testcase.xsd">
+<Uitestcase xmlns="http://www.supaur.com/testcase"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.supaur.com/testcase testcase.xsd">
+    <testcase url="https://cdp.dmp-sit.supaur.tech/overview/customer">
         <!--
         现阶段：参数类型均为String
         type:元素定位类型
