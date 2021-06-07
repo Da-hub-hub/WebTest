@@ -7,7 +7,7 @@
     </listeners>
     <test name="Base">
         <classes>
-            <class name="com.supaur.framework.Sprint1.run.ActionRun"></class>
+            <class name="com.supaur.framework.Sprint1.run.ActionRun2"></class>
         </classes>
     </test>
 

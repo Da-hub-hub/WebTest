@@ -20,30 +20,60 @@
       <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
     </line>
     <line>
-      <![CDATA[desc：进入标签管理;name:;定位信息：//span[text()='标签管理']]]>
+      <![CDATA[desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']]]>
+    </line>
+    <line>
+      <![CDATA[desc：进入会员;name:null;定位信息：//li/span[text()='会员']]]>
+    </line>
+    <line>
+      <![CDATA[desc：断言;name:null;定位信息：null]]>
+    </line>
+    <line>
+      <![CDATA[desc：后退;name:null;定位信息：null]]>
+    </line>
+    <line>
+      <![CDATA[desc：前进;name:null;定位信息：null]]>
+    </line>
+    <line>
+      <![CDATA[desc：null;name:null;定位信息：https://www.baidu.com]]>
+    </line>
+    <line>
+      <![CDATA[desc：null;name:null;定位信息：kw]]>
+    </line>
+    <line>
+      <![CDATA[desc：后退;name:null;定位信息：null]]>
+    </line>
+    <line>
+      <![CDATA[desc：前进;name:null;定位信息：null]]>
+    </line>
+    <line>
+      <![CDATA[desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']]]>
+    </line>
+    <line>
+      <![CDATA[desc：元素断言;name:null;定位信息：su]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="10450" started-at="2021-06-02T13:01:20Z" finished-at="2021-06-02T13:01:31Z">
+  <suite name="Suite" duration-ms="10428" started-at="2021-06-05T10:54:39Z" finished-at="2021-06-05T10:54:49Z">
     <groups>
     </groups>
-    <test name="Base" duration-ms="10450" started-at="2021-06-02T13:01:20Z" finished-at="2021-06-02T13:01:31Z">
-      <class name="com.supaur.framework.Sprint1.run.ActionRun">
-        <test-method status="PASS" signature="getPath(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getPath" is-config="true" duration-ms="12" started-at="2021-06-02T21:01:20Z" finished-at="2021-06-02T21:01:20Z">
+    <test name="Base" duration-ms="10428" started-at="2021-06-05T10:54:39Z" finished-at="2021-06-05T10:54:49Z">
+      <class name="com.supaur.framework.Sprint1.run.ActionRun2">
+        <test-method status="PASS" signature="getPath(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun2@13f5a29]" name="getPath" is-config="true" duration-ms="12" started-at="2021-06-05T18:54:39Z" finished-at="2021-06-05T18:54:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testcase/test.xml]]>
+                <![CDATA[testcase/TestCase_Redirect.xml]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPath -->
-        <test-method status="PASS" signature="getTestCase()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getTestCase" is-config="true" duration-ms="234" started-at="2021-06-02T21:01:20Z" finished-at="2021-06-02T21:01:21Z">
+        <test-method status="PASS" signature="getTestCase()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun2@13f5a29]" name="getTestCase" is-config="true" duration-ms="246" started-at="2021-06-05T18:54:39Z" finished-at="2021-06-05T18:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCase -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="setup" is-config="true" duration-ms="5802" started-at="2021-06-02T21:01:21Z" finished-at="2021-06-02T21:01:26Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun2@13f5a29]" name="setup" is-config="true" duration-ms="2770" started-at="2021-06-05T18:54:39Z" finished-at="2021-06-05T18:54:42Z">
           <params>
             <param index="0">
               <value>
@@ -54,11 +84,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getUrl1()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="getUrl1" is-config="true" duration-ms="0" started-at="2021-06-02T21:01:21Z" finished-at="2021-06-02T21:01:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUrl1 -->
-        <test-method status="PASS" signature="UiTest()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="UiTest" duration-ms="3647" started-at="2021-06-02T21:01:26Z" finished-at="2021-06-02T21:01:30Z">
+        <test-method status="PASS" signature="testProvider(com.supaur.framework.Sprint1.entity.TestCase)[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun2@13f5a29]" name="testProvider" duration-ms="6648" started-at="2021-06-05T18:54:42Z" data-provider="testcase" finished-at="2021-06-05T18:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase{url='https://cdp.dmp-sit.supaur.tech/overview/customer', test=[Test{param='15003970273', type='xpath', value='//input[@placeholder='用户名']', timeout='null', name='输入用户名', desc='用户名输入框', operator='sendKeys', handle='null', asserts=null}, Test{param='Supaur2021!@#', type='xpath', value='//input[@placeholder='密码']', timeout='null', name='输入密码', desc='密码输入框', operator='sendKeys', handle='null', asserts=null}, Test{param='null', type='xpath', value='//button[1]', timeout='null', name='登录', desc='登录', operator='click', handle='null', asserts=null}, Test{param='null', type='xpath', value='//li[text()='增长参谋']', timeout='null', name='增长参谋', desc='增长参谋', operator='click', handle='null', asserts=null}, Test{param='null', type='xpath', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='click', handle='null', asserts=null}, Test{param='null', type='null', value='//li/span[text()='活动']', timeout='null', name='活动', desc='活动', operator='click', handle='null', asserts=null}, Test{param='null', type='null', value='//span[text()='标签管理']', timeout='null', name='null', desc='进入标签管理', operator='click', handle='1', asserts=null}, Test{param='null', type='null', value='//li/span[text()='会员']', timeout='null', name='null', desc='进入会员', operator='click', handle='2', asserts=null}, Test{param='null', type='null', value='null', timeout='null', name='null', desc='断言', operator='systemAssert', handle='null', asserts=[Assert{value='null', type='currentUrl', desc='null', attribute='null', expectValue='https://indicator.dmp-sit.supaur.tech/memberBi/index'}, Assert{value='null', type='currentUrl', desc='null', attribute='null', expectValue='https://indicator.dmp-sit.supaur.tech/memberBi/ind'}, Assert{value='null', type='title', desc='null', attribute='null', expectValue='营销增长平台'}]}, Test{param='null', type='back', value='null', timeout='null', name='null', desc='后退', operator='navigate', handle='null', asserts=null}, Test{param='null', type='forward', value='null', timeout='null', name='null', desc='前进', operator='navigate', handle='null', asserts=null}, Test{param='null', type='toUrl', value='https://www.baidu.com', timeout='null', name='null', desc='null', operator='navigate', handle='null', asserts=null}, Test{param='你好啊', type='id', value='kw', timeout='null', name='null', desc='null', operator='sendKeys', handle='null', asserts=null}, Test{param='null', type='back', value='null', timeout='null', name='null', desc='后退', operator='navigate', handle='null', asserts=null}, Test{param='null', type='forward', value='null', timeout='null', name='null', desc='前进', operator='navigate', handle='null', asserts=null}, Test{param='null', type='xpath', value='//span[@name='tj_settingicon']', timeout='null', name='null', desc='元素断言', operator='elementAssert', handle='null', asserts=[Assert{value='null', type='text', desc='null', attribute='null', expectValue='设hj 置'}]}, Test{param='null', type='id', value='su', timeout='null', name='null', desc='元素断言', operator='elementAssert', handle='null', asserts=[Assert{value='null', type='value', desc='null', attribute='null', expectValue='百度一下'}, Assert{value='null', type='isDisplay', desc='null', attribute='null', expectValue='true'}]}]}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']]]>
@@ -79,15 +112,45 @@
               <![CDATA[desc：活动;name:活动;定位信息：//li/span[text()='活动']]]>
             </line>
             <line>
-              <![CDATA[desc：进入标签管理;name:;定位信息：//span[text()='标签管理']]]>
+              <![CDATA[desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']]]>
+            </line>
+            <line>
+              <![CDATA[desc：进入会员;name:null;定位信息：//li/span[text()='会员']]]>
+            </line>
+            <line>
+              <![CDATA[desc：断言;name:null;定位信息：null]]>
+            </line>
+            <line>
+              <![CDATA[desc：后退;name:null;定位信息：null]]>
+            </line>
+            <line>
+              <![CDATA[desc：前进;name:null;定位信息：null]]>
+            </line>
+            <line>
+              <![CDATA[desc：null;name:null;定位信息：https://www.baidu.com]]>
+            </line>
+            <line>
+              <![CDATA[desc：null;name:null;定位信息：kw]]>
+            </line>
+            <line>
+              <![CDATA[desc：后退;name:null;定位信息：null]]>
+            </line>
+            <line>
+              <![CDATA[desc：前进;name:null;定位信息：null]]>
+            </line>
+            <line>
+              <![CDATA[desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']]]>
+            </line>
+            <line>
+              <![CDATA[desc：元素断言;name:null;定位信息：su]]>
             </line>
           </reporter-output>
-        </test-method> <!-- UiTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun@1c78c0b]" name="tearDown" is-config="true" duration-ms="744" started-at="2021-06-02T21:01:30Z" finished-at="2021-06-02T21:01:31Z">
+        </test-method> <!-- testProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.supaur.framework.Sprint1.run.ActionRun2@13f5a29]" name="tearDown" is-config="true" duration-ms="740" started-at="2021-06-05T18:54:48Z" finished-at="2021-06-05T18:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supaur.framework.Sprint1.run.ActionRun -->
+      </class> <!-- com.supaur.framework.Sprint1.run.ActionRun2 -->
     </test> <!-- Base -->
   </suite> <!-- Suite -->
 </testng-results>

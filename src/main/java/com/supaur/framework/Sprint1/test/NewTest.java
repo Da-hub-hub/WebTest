@@ -1,6 +1,7 @@
 package com.supaur.framework.Sprint1.test;
 
 import com.gargoylesoftware.htmlunit.xml.XmlUtil;
+import com.supaur.framework.Sprint1.entity.TestCase;
 import com.supaur.framework.Sprint1.entity.UiTestCase;
 import com.supaur.framework.seleniumTool.DriverGet;
 import com.supaur.framework.seleniumTool.ElementGet;
@@ -23,6 +24,8 @@ import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.Source;
 import javax.xml.transform.sax.SAXSource;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class NewTest {
     public static String xmlChangeString(String fileName){
@@ -49,6 +52,25 @@ public class NewTest {
 
         UiTestCase uiTestCase = (UiTestCase) unmarshaller.unmarshal(source);
         return uiTestCase;
+
+    }
+    public static List<TestCase> test(List<String> paths) throws JAXBException, ParserConfigurationException, SAXException {
+        List<TestCase> testCases=new ArrayList<>();
+        for (String path:paths){
+            String s = NewTest.xmlChangeString(path);
+            JAXBContext jaxbContext = JAXBContext.newInstance(UiTestCase.class);
+            Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+            String xml =s;
+            StringReader reader = new StringReader(xml);
+            SAXParserFactory sax = SAXParserFactory.newInstance();
+            sax.setNamespaceAware(false);//设置忽略明明空间
+            XMLReader xmlReader = sax.newSAXParser().getXMLReader();
+            Source source = new SAXSource(xmlReader, new InputSource(reader));
+            UiTestCase uiTestCase = (UiTestCase) unmarshaller.unmarshal(source);
+            testCases.add(uiTestCase.getTestCase());
+        }
+
+        return testCases;
 
     }
 

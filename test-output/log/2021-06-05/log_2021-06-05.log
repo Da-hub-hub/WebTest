@@ -1,0 +1,214 @@
+[2021-06-05 18:07:24,838] INFO  java.lang.Object 测试用例路径已获取：testcase/TestCase_Redirect.xml;testcase/test.xml
+[2021-06-05 18:08:28,643] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:09:23,036] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:10:12,683] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:19:01,911] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:27:38,354] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:38:21,476] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:39:18,645] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:40:15,104] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:40:24,780] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:40:30,093] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:41:35,555] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:41:37,704] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:43:50,798] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:43:55,597] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:43:55,737] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:43:55,830] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:43:57,220] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:43:58,551] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:43:58,653] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:43:58,833] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:43:58,985] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:43:59,003] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:43:59,006] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:43:59,009] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:43:59,010] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:43:59,053] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:43:59,089] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:43:59,863] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:44:00,069] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:44:00,289] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:44:00,683] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:44:00,856] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:44:00,857] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:44:00,938] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:44:00,967] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:44:00,967] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:44:10,072] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:45:14,743] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:45:19,354] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:45:19,509] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:45:19,611] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:45:20,895] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:45:22,036] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:45:22,123] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:45:22,269] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:45:22,445] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:45:22,467] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:45:22,472] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:45:22,476] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:45:22,476] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:45:22,520] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:45:22,555] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:45:23,117] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:45:23,342] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:45:23,533] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:45:23,924] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:45:24,044] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:45:24,044] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:45:24,116] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:45:24,141] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:45:24,141] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:45:25,322] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:46:18,955] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:46:23,726] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:46:23,864] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:46:23,959] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:46:25,253] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:46:26,243] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:46:26,325] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:46:26,487] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:46:26,646] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:46:26,680] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:46:26,701] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:46:26,714] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:46:26,714] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:46:26,794] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:46:26,865] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:46:27,353] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:46:27,555] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:46:27,734] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:46:28,113] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:46:28,271] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:46:28,271] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:46:28,355] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:46:28,382] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:46:28,383] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:48:35,220] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:48:39,833] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:48:39,975] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:48:40,066] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:48:41,291] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:48:42,279] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:48:42,381] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:48:42,507] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:48:42,708] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:48:42,751] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:48:42,755] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:48:42,764] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:48:42,764] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:48:42,831] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:48:42,875] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:48:43,439] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:48:43,657] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:48:43,849] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:48:44,223] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:48:44,354] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:48:44,354] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:48:44,429] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:48:44,454] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:48:44,454] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:48:53,482] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:50:55,482] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:51:00,336] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:51:00,486] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:51:00,586] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:51:01,833] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:51:02,755] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:51:02,846] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:51:03,004] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:51:03,156] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:51:03,174] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:51:03,178] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:51:03,182] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:51:03,182] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:51:03,219] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:51:03,259] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:51:03,788] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:51:03,975] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:51:04,146] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:51:04,503] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:51:04,621] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:51:04,621] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:51:04,692] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:51:04,718] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:51:04,718] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:51:05,680] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:52:06,437] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:52:11,233] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:52:11,368] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:52:11,468] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:52:12,783] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:52:13,930] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:52:14,013] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:52:14,138] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:52:14,314] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:52:14,336] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:52:14,346] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:52:14,354] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:52:14,354] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:52:14,409] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:52:14,448] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:52:15,185] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:52:15,400] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:52:15,572] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:52:15,964] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:52:16,096] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:52:16,096] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:52:16,172] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:52:16,199] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:52:16,199] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:52:16,557] INFO  com.supaur.framework.seleniumTool.ElementGet desc：百度输入框;name:输入;定位信息：kw
+[2021-06-05 18:52:17,334] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:52:43,305] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml, testcase/test.xml]
+[2021-06-05 18:52:48,041] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:52:48,175] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:52:48,271] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:52:49,483] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:52:50,673] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:52:50,768] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:52:50,909] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:52:51,068] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:52:51,095] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:52:51,099] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:52:51,103] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:52:51,104] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:52:51,165] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:52:51,233] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:52:51,776] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:52:51,957] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:52:52,127] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:52:52,473] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:52:52,602] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:52:52,602] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:52:52,677] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:52:52,703] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:52:52,703] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:52:53,062] INFO  com.supaur.framework.seleniumTool.ElementGet desc：百度输入框;name:输入;定位信息：kw
+[2021-06-05 18:52:53,837] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------
+[2021-06-05 18:54:39,116] INFO  java.lang.Object 测试用例路径集合已获取：[testcase/TestCase_Redirect.xml]
+[2021-06-05 18:54:44,132] INFO  com.supaur.framework.seleniumTool.ElementGet desc：用户名输入框;name:输入用户名;定位信息：//input[@placeholder='用户名']
+[2021-06-05 18:54:44,265] INFO  com.supaur.framework.seleniumTool.ElementGet desc：密码输入框;name:输入密码;定位信息：//input[@placeholder='密码']
+[2021-06-05 18:54:44,361] INFO  com.supaur.framework.seleniumTool.ElementGet desc：登录;name:登录;定位信息：//button[1]
+[2021-06-05 18:54:45,379] INFO  com.supaur.framework.seleniumTool.ElementGet desc：增长参谋;name:增长参谋;定位信息：//li[text()='增长参谋']
+[2021-06-05 18:54:46,527] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:54:46,612] INFO  com.supaur.framework.seleniumTool.ElementGet desc：活动;name:活动;定位信息：//li/span[text()='活动']
+[2021-06-05 18:54:46,772] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入标签管理;name:null;定位信息：//span[text()='标签管理']
+[2021-06-05 18:54:46,929] INFO  com.supaur.framework.seleniumTool.ElementGet desc：进入会员;name:null;定位信息：//li/span[text()='会员']
+[2021-06-05 18:54:46,949] INFO  java.lang.Object 断言成功！预期值：https://indicator.dmp-sit.supaur.tech/memberBi/index;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:54:46,953] ERROR java.lang.Object 断言失败!!!预期值：https://indicator.dmp-sit.supaur.tech/memberBi/ind;实际值：https://indicator.dmp-sit.supaur.tech/memberBi/index
+[2021-06-05 18:54:46,958] ERROR java.lang.Object 断言失败!!!预期值：null;实际值：营销数据中台
+[2021-06-05 18:54:46,958] INFO  com.supaur.framework.seleniumTool.ElementGet desc：断言;name:null;定位信息：null
+[2021-06-05 18:54:46,999] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:54:47,048] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:54:47,832] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：https://www.baidu.com
+[2021-06-05 18:54:48,020] INFO  com.supaur.framework.seleniumTool.ElementGet desc：null;name:null;定位信息：kw
+[2021-06-05 18:54:48,194] INFO  com.supaur.framework.seleniumTool.ElementGet desc：后退;name:null;定位信息：null
+[2021-06-05 18:54:48,553] INFO  com.supaur.framework.seleniumTool.ElementGet desc：前进;name:null;定位信息：null
+[2021-06-05 18:54:48,689] ERROR java.lang.Object 断言失败!!!预期值:设hj 置;实际值：设置
+[2021-06-05 18:54:48,690] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：//span[@name='tj_settingicon']
+[2021-06-05 18:54:48,767] INFO  java.lang.Object 断言成功!预期值:百度一下;实际值：百度一下
+[2021-06-05 18:54:48,791] INFO  java.lang.Object 断言成功!预期值:true;实际值：true
+[2021-06-05 18:54:48,791] INFO  com.supaur.framework.seleniumTool.ElementGet desc：元素断言;name:null;定位信息：su
+[2021-06-05 18:54:49,531] INFO  java.lang.Object -------------结束测试，并关闭退出浏览器-------------

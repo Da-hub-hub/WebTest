@@ -25,8 +25,11 @@ public class Test {
 
         //parameters.put("path", "E:\\WebTest\\src\\main\\java\\com\\supaur\\framework\\Sprint1\\TestCase.xml");
         //类路径下
-        parameters.put("path","testcase/test.xml");
+        /*ArrayList<String> list = new ArrayList<>();
+        list.add("testcase/TestCase_Redirect.xml");
+        list.add("testcase/test.xml");*/
 
+        parameters.put("path","testcase/TestCase_Redirect.xml;testcase/test.xml");
         parameters.put("driver","ChromeDriver");
         xmlSuite.setParameters(parameters);
         testNG.setXmlSuites(suites);
